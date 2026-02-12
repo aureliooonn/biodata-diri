@@ -1,0 +1,601 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Biodata Diri - Nica</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar" id="navbar">
+            <div class="navbar-content">
+                <div class="navbar-brand">
+                    <span class="navbar-logo">N</span>
+                    <h1 class="navbar-title">NICA</h1>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li>
+                        <a
+                            href="#home"
+                            class="nav-link active"
+                            data-section="home"
+                            >Home</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#about" class="nav-link" data-section="about"
+                            >Tentang Saya</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#contact"
+                            class="nav-link"
+                            data-section="contact"
+                            >Kontak</a
+                        >
+                    </li>
+                </ul>
+                <button
+                    class="mobile-menu-toggle"
+                    id="mobileMenuToggle"
+                    aria-label="Toggle menu"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Home Section -->
+        <section id="home" class="home">
+            <!-- Animated Background -->
+            <div class="animated-bg">
+                <div class="gradient-blob blob-1"></div>
+                <div class="gradient-blob blob-2"></div>
+                <div class="gradient-blob blob-3"></div>
+            </div>
+
+            <!-- Animated Particles -->
+            <div class="particles">
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+            </div>
+
+            <div class="home-content">
+                <!-- Profile Card with 3D Effect -->
+                <div class="profile-container">
+                    <div class="profile-card-3d">
+                        <div class="card-inner">
+                            <div class="card-front">
+                                <div class="profile-image-wrapper">
+                                    <div class="glow-ring"></div>
+                                    <img
+                                        src="img/nica_profile.png"
+                                        alt="Nica"
+                                        class="profile-pic-enhanced"
+                                    />
+                                </div>
+                                <div class="status-indicator">
+                                    <span class="pulse"></span>
+                                    <p>Available & Ready!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Content -->
+                <div class="hero-section">
+                    <!-- Animated Greeting -->
+                    <div class="greeting-box">
+                        <span class="wave-emoji">👋</span>
+                        <p class="greeting-text">Halo! Saya</p>
+                    </div>
+
+                    <!-- Dynamic Title with Gradient -->
+                    <h1 class="dynamic-title">
+                        <span class="name-highlight">NICA</span>
+                    </h1>
+
+                    <!-- Animated Subtitle -->
+                    <div class="subtitle-container">
+                        <p class="dynamic-subtitle">
+                            Passionate • Creative • Enthusiastic
+                        </p>
+                    </div>
+
+                    <!-- Enhanced Description -->
+                    <p class="hero-tagline">
+                        Gadis yang penuh mimpi, energi positif, dan semangat
+                        belajar. Percaya bahwa setiap hari adalah kesempatan
+                        baru untuk berkembang dan menginspirasi orang lain. 🌟
+                    </p>
+
+                    <!-- Interactive Features Display -->
+                    <div class="features-showcase">
+                        <div class="feature-item">
+                            <div class="feature-icon">💡</div>
+                            <span>Kreatif</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🎯</div>
+                            <span>Fokus</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">🚀</div>
+                            <span>Dinamis</span>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">💪</div>
+                            <span>Dedikasi</span>
+                        </div>
+                    </div>
+
+                    <!-- CTA Buttons with Hover Effects -->
+                    <div class="cta-container">
+                        <button
+                            class="btn-modern btn-primary-modern"
+                            onclick="scrollToAbout()"
+                        >
+                            <span class="btn-text">Baca Selengkapnya</span>
+                            <span class="btn-icon">→</span>
+                        </button>
+                        <button
+                            class="btn-modern btn-secondary-modern"
+                            onclick="scrollToContact()"
+                        >
+                            <span class="btn-text">Hubungi Saya</span>
+                            <span class="btn-icon">💬</span>
+                        </button>
+                    </div>
+
+                    <!-- Social Links with Animation -->
+                    <div class="social-hub">
+                        <a
+                            href="#"
+                            class="social-btn instagram-btn"
+                            title="Instagram"
+                        >
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                            >
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.646-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.015-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm4.846-10.405c-.796 0-1.441-.645-1.441-1.44s.645-1.44 1.441-1.44c.795 0 1.44.645 1.44 1.44s-.645 1.44-1.44 1.44z"
+                                />
+                            </svg>
+                        </a>
+                        <a
+                            href="https://wa.me/6281337507256"
+                            target="_blank"
+                            class="social-btn whatsapp-btn"
+                            title="WhatsApp"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 640 640"
+                            >
+                                <!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+                                <path
+                                    fill="#ffffff"
+                                    d="M476.9 161.1C435 119.1 379.2 96 319.9 96C197.5 96 97.9 195.6 97.9 318C97.9 357.1 108.1 395.3 127.5 429L96 544L213.7 513.1C246.1 530.8 282.6 540.1 319.8 540.1L319.9 540.1C442.2 540.1 544 440.5 544 318.1C544 258.8 518.8 203.1 476.9 161.1zM319.9 502.7C286.7 502.7 254.2 493.8 225.9 477L219.2 473L149.4 491.3L168 423.2L163.6 416.2C145.1 386.8 135.4 352.9 135.4 318C135.4 216.3 218.2 133.5 320 133.5C369.3 133.5 415.6 152.7 450.4 187.6C485.2 222.5 506.6 268.8 506.5 318.1C506.5 419.9 421.6 502.7 319.9 502.7zM421.1 364.5C415.6 361.7 388.3 348.3 383.2 346.5C378.1 344.6 374.4 343.7 370.7 349.3C367 354.9 356.4 367.3 353.1 371.1C349.9 374.8 346.6 375.3 341.1 372.5C308.5 356.2 287.1 343.4 265.6 306.5C259.9 296.7 271.3 297.4 281.9 276.2C283.7 272.5 282.8 269.3 281.4 266.5C280 263.7 268.9 236.4 264.3 225.3C259.8 214.5 255.2 216 251.8 215.8C248.6 215.6 244.9 215.6 241.2 215.6C237.5 215.6 231.5 217 226.4 222.5C221.3 228.1 207 241.5 207 268.8C207 296.1 226.9 322.5 229.6 326.2C232.4 329.9 268.7 385.9 324.4 410C359.6 425.2 373.4 426.5 391 423.9C401.7 422.3 423.8 410.5 428.4 397.5C433 384.5 433 373.4 431.6 371.1C430.3 368.6 426.6 367.2 421.1 364.5z"
+                                />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-btn email-btn" title="Email">
+                            <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                            >
+                                <rect
+                                    x="2"
+                                    y="4"
+                                    width="20"
+                                    height="16"
+                                    rx="2"
+                                ></rect>
+                                <path
+                                    d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"
+                                ></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll Indicator with Animation -->
+            <div class="scroll-hint">
+                <div class="scroll-text">Scroll Ke Bawah</div>
+                <div class="scroll-animation">
+                    <div class="scroll-dot"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="about-bg-decoration"></div>
+            <div class="about-visual" aria-hidden="true">
+                <img
+                    src="img/nica_profile.png"
+                    alt="Decorative profile"
+                    class="about-profile-decor"
+                />
+            </div>
+            <div class="about-content">
+                <h2 class="section-title">Tentang Saya</h2>
+
+                <!-- Interactive Bio Section -->
+                <div class="bio-section">
+                    <div class="bio-card">
+                        <div class="bio-header">
+                            <div class="bio-avatar">
+                                <img
+                                    src="img/nica_profile.png"
+                                    alt="Nica"
+                                    class="bio-avatar-img"
+                                />
+                                <div class="bio-avatar-glow"></div>
+                            </div>
+                            <div class="bio-text">
+                                <h3 class="bio-name">Azmi Khairunnisa</h3>
+                                <p class="bio-title">
+                                    Passionate Creative Learner
+                                </p>
+                                <p class="bio-location">🇮🇩 Indonesia</p>
+                            </div>
+                        </div>
+                        <p class="bio-description">
+                            Gadis berusia 16 tahun yang penuh mimpi dan energi
+                            positif. Memiliki passion mendalam dalam psikologi
+                            dan pembelajaran. Percaya bahwa setiap hari adalah
+                            kesempatan untuk tumbuh, belajar, dan menginspirasi
+                            orang lain di sekitar.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Interactive Stats Section -->
+                <div class="stats-section">
+                    <div class="stat-card stat-card-1">
+                        <div class="stat-icon">🎂</div>
+                        <div class="stat-content">
+                            <p class="stat-label">Usia</p>
+                            <p class="stat-value">16</p>
+                        </div>
+                    </div>
+                    <div class="stat-card stat-card-2">
+                        <div class="stat-icon">🎯</div>
+                        <div class="stat-content">
+                            <p class="stat-label">Cita-Cita</p>
+                            <p class="stat-value">Psikologi</p>
+                        </div>
+                    </div>
+                    <div class="stat-card stat-card-3">
+                        <div class="stat-icon">⭐</div>
+                        <div class="stat-content">
+                            <p class="stat-label">Status</p>
+                            <p class="stat-value">Belajar</p>
+                        </div>
+                    </div>
+                    <div class="stat-card stat-card-4">
+                        <div class="stat-icon">🌍</div>
+                        <div class="stat-content">
+                            <p class="stat-label">Asal</p>
+                            <p class="stat-value">Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Traits Section -->
+                <div class="traits-section">
+                    <h3 class="traits-title">Kepribadian Saya</h3>
+                    <div class="traits-grid">
+                        <div
+                            class="trait-item trait-item-1"
+                            data-tooltip="Suka mengeksplorasi ide baru"
+                        >
+                            <div class="trait-icon">💡</div>
+                            <span class="trait-name">Kreatif</span>
+                        </div>
+                        <div
+                            class="trait-item trait-item-2"
+                            data-tooltip="Fokus pada tujuan"
+                        >
+                            <div class="trait-icon">🎯</div>
+                            <span class="trait-name">Fokus</span>
+                        </div>
+                        <div
+                            class="trait-item trait-item-3"
+                            data-tooltip="Penuh semangat dan energi"
+                        >
+                            <div class="trait-icon">⚡</div>
+                            <span class="trait-name">Energik</span>
+                        </div>
+                        <div
+                            class="trait-item trait-item-4"
+                            data-tooltip="Orang yang peduli"
+                        >
+                            <div class="trait-icon">❤️</div>
+                            <span class="trait-name">Empati</span>
+                        </div>
+                        <div
+                            class="trait-item trait-item-5"
+                            data-tooltip="Selalu belajar dan berkembang"
+                        >
+                            <div class="trait-icon">📚</div>
+                            <span class="trait-name">Pembelajar</span>
+                        </div>
+                        <div
+                            class="trait-item trait-item-6"
+                            data-tooltip="Mudah bergaul"
+                        >
+                            <div class="trait-icon">🤝</div>
+                            <span class="trait-name">Sosial</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Skills Section -->
+                <div class="skills-section">
+                    <h3 class="skills-title">Keterampilan & Minat</h3>
+                    <div class="skills-container">
+                        <div class="skill-category">
+                            <h4 class="category-title">Akademik</h4>
+                            <div class="skill-list">
+                                <div class="skill-item">
+                                    <span class="skill-name">Psikologi</span>
+                                    <div class="skill-bar">
+                                        <div
+                                            class="skill-progress skill-progress-1"
+                                            style="width: 95%"
+                                        ></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Menulis</span>
+                                    <div class="skill-bar">
+                                        <div
+                                            class="skill-progress skill-progress-2"
+                                            style="width: 85%"
+                                        ></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Presentasi</span>
+                                    <div class="skill-bar">
+                                        <div
+                                            class="skill-progress skill-progress-3"
+                                            style="width: 80%"
+                                        ></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h4 class="category-title">Hobi & Kegemaran</h4>
+                            <div class="hobby-grid">
+                                <div class="hobby-badge hobby-badge-1">
+                                    🍳 Masak
+                                </div>
+                                <div class="hobby-badge hobby-badge-2">
+                                    📖 Membaca
+                                </div>
+                                <div class="hobby-badge hobby-badge-3">
+                                    🎬 Menonton Film
+                                </div>
+                                <div class="hobby-badge hobby-badge-4">
+                                    🎵 Mendengarkan Musik
+                                </div>
+                                <div class="hobby-badge hobby-badge-5">
+                                    💬 Berbincang
+                                </div>
+                                <div class="hobby-badge hobby-badge-6">
+                                    🎨 Berkreasi
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive Values Section -->
+                <!-- <div class="values-section">
+                    <h3 class="values-title">Nilai-Nilai Saya</h3>
+                    <div class="values-grid">
+                        <div class="value-card value-card-1">
+                            <div class="value-icon">🌟</div>
+                            <h4 class="value-name">Integritas</h4>
+                            <p class="value-desc">
+                                Jujur dan bertanggung jawab dalam setiap
+                                tindakan
+                            </p>
+                        </div>
+                        <div class="value-card value-card-2">
+                            <div class="value-icon">🚀</div>
+                            <h4 class="value-name">Pertumbuhan</h4>
+                            <p class="value-desc">
+                                Terus belajar dan mengembangkan diri
+                            </p>
+                        </div>
+                        <div class="value-card value-card-3">
+                            <div class="value-icon">🤲</div>
+                            <h4 class="value-name">Kontribusi</h4>
+                            <p class="value-desc">
+                                Memberikan dampak positif bagi orang lain
+                            </p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <!-- Contact Section - Redesigned -->
+        <section id="contact" class="contact">
+            <div class="contact-wrapper">
+                <div class="contact-left">
+                    <div class="contact-bg">
+                        <div class="blob b1"></div>
+                        <div class="blob b2"></div>
+                        <div class="blob b3"></div>
+                    </div>
+
+                    <div class="contact-intro">
+                        <h2 class="contact-title">Hubungi Saya</h2>
+                        <p class="contact-subtitle">
+                            Punya ide, kolaborasi, atau sekadar menyapa? Kirim
+                            pesan — saya akan senang membalas!
+                        </p>
+                    </div>
+
+                    <div class="contact-cards">
+                        <div class="contact-card glass card-tilt" data-tilt>
+                            <div class="card-icon">✉️</div>
+                            <div class="card-body">
+                                <h4>Email</h4>
+                                <p>nica@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card glass card-tilt" data-tilt>
+                            <div class="card-icon">📱</div>
+                            <div class="card-body">
+                                <h4>WhatsApp</h4>
+                                <p>+62 813-3750-7256</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-card glass card-tilt" data-tilt>
+                            <div class="card-icon">📷</div>
+                            <div class="card-body">
+                                <h4>Instagram</h4>
+                                <p>@nicaaa</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-row">
+                        <a href="#" class="soc-btn">Tiktok</a>
+                        <a href="#" class="soc-btn">Instagram</a>
+                        <a
+                            href="https://wa.me/6281337507256"
+                            target="_blank"
+                            class="soc-btn"
+                            >Whatsapp</a
+                        >
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <form id="contactForm" class="contact-form" novalidate>
+                        <div class="form-header">
+                            <h3>Kirim Pesan</h3>
+                            <p class="small">
+                                Isi form berikut, saya akan membalas secepatnya.
+                            </p>
+                        </div>
+
+                        <div class="field">
+                            <input
+                                id="c-name"
+                                name="name"
+                                type="text"
+                                required
+                            />
+                            <label for="c-name">Nama kamu</label>
+                        </div>
+
+                        <div class="field">
+                            <input
+                                id="c-email"
+                                name="email"
+                                type="email"
+                                required
+                            />
+                            <label for="c-email">Email</label>
+                        </div>
+
+                        <div class="field">
+                            <textarea
+                                id="c-message"
+                                name="message"
+                                rows="5"
+                                required
+                            ></textarea>
+                            <label for="c-message">Pesan kamu</label>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="submit-btn">
+                                Kirim Pesan
+                            </button>
+                            <div
+                                id="formStatus"
+                                aria-live="polite"
+                                class="form-status"
+                            ></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div id="contactSuccess" class="contact-success" aria-hidden="true">
+                <div class="success-card">
+                    <div class="check">✓</div>
+                    <h4>Terima kasih!</h4>
+                    <p>
+                        Pesanmu telah terkirim. Saya akan menghubungi
+                        secepatnya.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Made with love by Nica | © 2026</p>
+        </footer>
+        <script
+            src="https://kit.fontawesome.com/413af3b10f.js"
+            crossorigin="anonymous"
+        ></script>
+        <!-- Profile lightbox modal -->
+        <div
+            id="profileLightbox"
+            class="lightbox"
+            aria-hidden="true"
+            role="dialog"
+            aria-modal="true"
+        >
+            <div class="lightbox-backdrop" data-close></div>
+            <div class="lightbox-card">
+                <button
+                    class="lightbox-close"
+                    id="lightboxClose"
+                    aria-label="Close"
+                >
+                    ✕
+                </button>
+                <img
+                    id="lightboxImg"
+                    src="img/nica_profile.png"
+                    alt="Nica full view"
+                />
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+<!-- End of HTML -->
